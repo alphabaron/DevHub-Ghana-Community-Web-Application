@@ -6,129 +6,196 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link rel="stylesheet" href="assets/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style.css">
 
 
-    <title>Responsive Homepage</title>
+    <title>Devhub Ghana | A communty of code loving people</title>
 </head>
 
 <body>
 
+    <!--////////////////////////////////////////////////////////////////////////////
+            THE FOLLOWING WAS WRITTEN IN BOOSTRAP WITHOUT ANY CSS
+            TO FURTHER UNDERSTAND IT I ADVISE YOU TO CHECK OUT THEIR DOCUMENTATION
+            FIRST.
+           >>>  https://v4-alpha.getbootstrap.com/components
+
+     //// ///////////////////////////////////////////////////////////////////////////-->
+
+
+    <!--////////////////////// Head Nav-bar starts //////////////////// -->
 
 
 
-    <div>
-        <nav>
-            <div class="container">
-                <img id="jewel" src="assets/icons/jewel.png" alt="">
-                <div>
-                    <span class="menu-button">Home</span>
-                    <span class="menu-button">Blog</span>
-                    <span class="menu-button">Forum</span>
-                    <span class="menu-button">Code Library</span>
-                    <span class="menu-button">Faqs</span>
-                    <span height="40px" class="btn btn-danger menu-button">Signup</span>
 
-                </div>
-            </div>
-        </nav>
-    </div>
+    <!--////////////////////// Head Nav-bar ends //////////////////// -->
 
 
-    <div class="jumbotron jumbotron-fluid bg-info text-white text-center" style="background: #aaa;">
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">Navbar</a>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+
+    <!--////////////////////// Jumbotron Start here //////////////////// -->
+
+
+    <div class="jumbotron jumbotron-fluid bg-info text-white text-center" py-3 style="background: #aaa;">
         <div class="container">
-            <h1 class="display-1">Welcome to Sololearn Ghana</h1>
+            <h1 class="display-2">Welcome to Sololearn Ghana</h1>
             <p class="lead">A community of code loving people !</p>
 
+            <a href="#" class="btn btn-warning">Go somewhere</a>
+
         </div>
     </div>
 
+    <!--////////////////////// form Start here //////////////////// -->
 
 
 
-    <div class="container text-muted">
-        <div class="jumbo">
-            <div class="row">
-                <div class="col-md-6 col-lg-3">
-                    <div class="card">
-                        <img src="assets/images/22.png" alt="man" class="card-img-top img-fluid">
 
-                        <div class="card-block">
-                            <h3 class="card-title">Code for Ghana</h3>
-                            <p>Loehenderit nihilolore beatae rerum tenetur pariatur magni ut.</p>
+    <!--////////////////////// Cards Start here //////////////////// -->
 
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="card">
-                        <img src="assets/images/11.png" alt="man" class="card-img-top img-fluid">
+    <div class="container py-5">
 
-                        <div class="card-block">
-                            <h3 class="card-title">Code for Ghana</h3>
-                            <p>Loehenderit nihilolore beatae rerum tenetur pariatur magni ut.'</p>
+        <div class="row">
+            <div class="col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="/assets/images/11.png" alt="" class="card-img-top img-fluid">
+                    <div class="card-body">
+                        <h4 class="card-title">Learn to code</h4>
+                        <p>Get hands on help from the community of coders all around the country,even in your area.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
 
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="card">
-                        <img src="assets/images/33.png" alt="man" class="card-img-top img-fluid">
-
-                        <div class="card-block">
-                            <h3 class="card-title">Code for Ghana</h3>
-                            <p>Loehenderit nihilolore beatae rerum tenetur pariatur magni ut.'</p>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="card">
-                        <img src="assets/images/11.png" alt="man" class="card-img-top img-fluid">
-
-                        <div class="card-block">
-                            <h3 class="card-title">Code for Ghana</h3>
-                            <p>Loehenderit nihilolore beatae rerum tenetur pariatur magni ut.'</p>
-
-                        </div>
                     </div>
                 </div>
             </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="/assets/images/33.png" alt="" class="card-img-top img-fluid">
+                    <div class="card-body">
+                        <h4 class="card-title">Read articles</h4>
+                        <p>Get hands on help from the community of coders all around the country,even in your area.</p>
+                        <a href="#" class="btn btn-danger">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="/assets/images/44.png" alt="" class="card-img-top img-fluid">
+                    <div class="card-body">
+                        <h4 class="card-title">Get a mentor</h4>
+                        <p>Get hands on help from the community of coders all around the country,even in your area.</p>
+                        <a href="#" class="btn btn-warning">Go somewhere</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="/assets/images/22.png" alt="" class="card-img-top img-fluid">
+                    <div class="card-body">
+                        <h4 class="card-title">Join the forum</h4>
+                        <p>Get hands on help from the community of coders all around the country,even in your area.</p>
+                        <a href="#" class="btn btn-success">Go somewhere</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--////////////////////// Cards End //////////////////// -->
+
+
+
+
+
+
+
+    <!--////////////////////// Navbar Tabbed Start bottom  //////////////////// -->
+
+    <h2 class="display-4 text-center py-5 my-4" id="code">Meet Us</h2>
+
+    <nav class="nav justify-content-center nav-pills flex-column flex-md-row">
+
+        <a class="nav-link active" href="#help" data-toggle="tab">Get help from us</a>
+        <a class="nav-link" href="#mentors" data-toggle="tab">Get coding with us</a>
+        <a class="nav-link" href="#volunteers" data-toggle="tab">Get mentors from us</a>
+        <a class="nav-link" href="#code" data-toggle="tab">Get volunteers from us</a>
+
+    </nav>
+
+    <div class="tab-content text-center py-5">
+        <div class="tab-pane active" id="help">
+            <h4>Coding is for everyone</h4>
+            <p>We as developers we have creativity in our midst and we are ready to share it with everyone.</p>
+
+        </div>
+        <div class="tab-pane" id="mentors">
+            <h4>Find a friend</h4>
+            <p>We as developers we have creativity in our midst and we are ready to share it with everyone.</p>
+
+        </div>
+
+        <div class="tab-pane" id="volunteers">
+            <h4>Get help from mentor</h4>
+            <p>We as developers we have creativity in our midst and we are ready to share it with everyone.</p>
+
+        </div>
+
+        <div class="tab-pane" id="code">
+            <h4>Join the community</h4>
+            <p>We as developers we have creativity in our midst and we are ready to share it with everyone.</p>
 
         </div>
 
     </div>
-    <br/>
-    <br/>
 
-    <div class="jumbotron jumbotron-fluid bg-transparent  text-forest text-center" style="background: #aaa;">
-        <div class="container">
-            <p class="display-4">Signup and join the rising community</p>
-            <p class="lead">A community of code loving people !</p>
-
-        </div>
-    </div>
-
-    <div class="newsletter">
-        <input type="username" placeholder="Name here">
-        <br>
-        <input type="email" placeholder="Email here">
-        <br>
-        <input class="btn btn-danger" type="submit" value="Join">
 
 
     </div>
 
+    <!--//////////////////////  Navbar tabbed End  //////////////////// -->
 
 
 
 
 
-    <script src="assets/jquery.js"></script>
-    <script src="/assets/bootstrap.js"></script>
-    <script src="assets/bootstrap.js"></script>
-    <script src="assets/script.js"></script>
+    <!--////////////////////// CDN for compatability << Note>>> It needs internet //////////////////// -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+        crossorigin="anonymous"></script>
 
 
 
